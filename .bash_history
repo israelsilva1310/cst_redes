@@ -175,3 +175,47 @@ ls
 mkdir banco_de_dados
 ls
 ip a
+ls -la
+ls
+cd ..
+ls
+cd israel
+ls
+cd prog_script
+cd prog_scripts
+ls
+nano spamassassin.sh
+chmod +x spamassassin.sh
+ls
+spamassain.sh
+spamassassin.sh
+./spamassassin.sh
+nano spamassassin.sh
+./spamassassin.sh
+ls
+cd ..
+ls
+nano /home/israel/prog_scripts/spamassassin.sh
+su
+nano /home/israel/prog_scripts/spamassassin.sh
+/home/israel/prog_scripts/spam/./spamassassin.sh
+/home/israel/prog_scripts/./spamassassin.sh
+ls
+cd prog_scripts
+ls
+rm -rf spam
+ls
+/home/israel/prog_scripts/./spamassassin.sh
+cd 
+ls
+/home/$USER/prog_scripts/./spamassassin.sh
+ls -l /home/$USER/prog_scripts/
+ls -la /home/$USER/prog_scripts/
+/home/$USER/prog_scripts/./spamassassin.sh
+cd 
+ls
+git status
+ls
+git add .
+git commit -m "pronto"
+git push 
