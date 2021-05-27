@@ -45,23 +45,41 @@ echo "qual quantidade aceitavel de spam"
 read maxspam
 
 if [ -z $dtconsulta ]
-then
-    echo "Você não digitou uma data!"
-else
-    echo "pesquisando, $dtconsulta"
-	sleep 0.850
+	then
+		echo "Você não digitou uma data!"
+	else
+		echo "pesquisando, $dtconsulta"
+		sleep 0.850
 fi
+
 echo "Configurando o filtro!...Aguarde..."
 sleep 0.15
 echo "Avançando...checando pastas"
 
-if [ -e "/home/$USER/prog_scripts/$dtconsulta" ]
-then
+contador=0
+while [ $contador -lt $maxspam ];
+do
+    #echo O valor atual do contador é: $contador
+	touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
+    let contador=contador+1
+done
+#touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
 
-echo " O diretorio $dtconsulta já existe, Atualizando aquivo do dia..."
+if [ -e "/home/$USER/prog_scripts/$dtconsulta" ]
+	then
+		echo " O diretorio $dtconsulta já existe, Atualizando aquivo do dia..."
+sleep 1
+
 ls -la /home/$USER/prog_scripts/$dtconsulta/spam/
 
-touch /home/$USER/prog_scripts/$dtconsulta/spam/spam{1..$maxspam}.txt
+contador=0
+while [ $contador -lt $maxspam ];
+do
+    #echo O valor atual do contador é: $contador
+	touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
+    let contador=contador+1
+done
+#touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
 
 sleep 0.25
 
@@ -73,7 +91,7 @@ mkdir -p /home/$USER/prog_scripts/$dtconsulta
 
 mkdir -p /home/$USER/prog_scripts/$dtconsulta/spam
 
-touch /home/$USER/prog_scripts/$dtconsulta/spam/spam{1..$maxspam}.txt
+touch /home/$USER/prog_scripts/$dtconsulta/spam/spam{1.."$maxspam"}.txt
 
 ls -l /home/$USER/prog_scripts/$dtconsulta/spam/
 fi
