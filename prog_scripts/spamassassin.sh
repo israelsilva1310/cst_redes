@@ -56,12 +56,13 @@ echo "Configurando o filtro!...Aguarde..."
 sleep 0.15
 echo "Avançando...checando pastas"
 
-contador=0
-while [ $contador -lt $maxspam ];
+gerarq=0
+while [ $gerarq -lt $maxspam ];
 do
     #echo O valor atual do contador é: $contador
-	touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
-    let contador=contador+1
+	touch /home/$USER/prog_scripts/$dtconsulta/spam/$contador.txt
+	echo "Arquivo Span $contador" > /home/$USER/prog_scripts/$dtconsulta/spam/$contador.txt
+    let gerarq=gerarq+1
 done
 #touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
 
@@ -76,14 +77,15 @@ contador=0
 while [ $contador -lt $maxspam ];
 do
     #echo O valor atual do contador é: $contador
-	touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
+	touch /home/$USER/prog_scripts/$dtconsulta/spam/$contador.txt
+	echo "Arquivo Span $contador" > /home/$USER/prog_scripts/$dtconsulta/spam/$contador.txt
     let contador=contador+1
 done
 #touch > /home/$USER/prog_scripts/$dtconsulta/spam/spam{$contador}.txt
 
 sleep 0.25
 
-echo "A quantidade atual de spam é: "ls -la|grep -e "^-"|wc -l /home/$USER/prog_scripts/$dtconsulta/spam/
+echo "A quantidade atual de spam é: ls -la|grep -e "^-"|wc -l /home/$USER/prog_scripts/$dtconsulta/spam/"
 else
 
 echo " O diretorio $dtconsulta não existe... criando agora!"
@@ -98,19 +100,18 @@ fi
 exit
 
 while true; do
-    echo -e "\e[?5h\e[33;5;1m A L E R T A $(date) ls -la|grep -e "^-"|wc -l"
-    sleep 0.1
-    printf \\e[?5l
-    read -s -n1 -t1 && printf \\e[?5l && break
+	echo -e "\e[?5h\e[33;5;1m A L E R T A $(date) ls -la|grep -e "^-"|wc -l"
+	sleep 0.1
+	printf \\e[?5l
+   read -s -n1 -t1 && printf \\e[?5l && break
 done
-
-echo "Avançando...."
-sleep 0.15
 
 echo "Total de spam na data $dtconsulta : "
 
 sleep 0.10
-ls -l /home/$USER/prog_scripts/$dtconsulta/spam/
+#ls -l /home/$USER/prog_scripts/$dtconsulta/spam/
+
 sleep 0.25
 echo A quantidade atual de spam é: ls -la|grep -e "^-"|wc -l /home/$USER/prog_scripts/$dtconsulta/spam/
+
 
