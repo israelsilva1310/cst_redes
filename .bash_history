@@ -453,3 +453,50 @@ clear
 ./bkp.sh
 clear
 ./bkp.sh
+ls
+/prog_scripts/trab1/./bkp.sh
+/home/prog_scripts/trab1/./bkp.sh
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+ls
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+cd /
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+ls
+cd
+ls
+/home/israel/prog_scripts/trab1/./bkp.sh
+cd 
+ls
+/home/israel/prog_scripts/trab1/./bkp.sh
+git add .
+git commit - "final"
+git commit -m "final"
+git push
+ls
+git status
+git push origin dev
+git push origin/dev
+git push origin?
+git push
+ls
+cd prog_scripts
+git push
+git status
+git add .
+git status
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+cd 
