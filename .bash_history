@@ -219,3 +219,237 @@ ls
 git add .
 git commit -m "pronto"
 git push 
+ls
+git status
+git add .
+git push
+git status
+git commit -m "del"
+git push
+ls
+cd prog_scripts
+ls
+git stats
+git status
+git push
+ls
+./spamassassin.sh
+git add .
+git commit 
+git commit -m ""
+git commit -m "alter"
+git push
+cd ..
+git push
+cd prog_)scripts
+cd prog_scripts
+./apamassassin.sh
+20-05-2021
+ls
+./aspamassassin.sh
+./spamassassin.sh
+exit
+ls
+cd prog_scripts
+ls
+mkdir quarentena
+cd trab1
+mkdir trab1
+ls
+rm -rf quarentena
+ls
+cd trab1
+ls
+mkdir 20061009
+mkdir 20080621
+mkdir 20091126
+cd 20091126
+mkdir spam
+cd spam
+ls
+touch spam1.txt
+ls
+cat "teste" > spam2.txt
+touch spam2.txt
+touch spam3.txt
+touch spam4.txt
+touch spam5.txt
+cd ..
+ls
+cd 20061009
+ls
+touch spam1.txt
+touch spam2.txt
+touch spam3.txt
+touch spam4.txt
+touch spam5.txt
+touch spam6.txt
+touch spam7.txt
+cd ..
+ls
+cd 20080621
+ls 
+cd spam
+mkdir spam
+ls
+cd ..
+ls
+cd 20061009
+ls
+mkdir spam
+ls
+cd spam
+ks
+ls
+touch spam8.txt
+touch spam9.txt
+touch spam10.txt
+ls
+touch spam010.txt
+ls
+cd ..
+ls -la
+cd ..
+ls
+su 
+ls
+cd prog_scripts
+ls
+cd trab1
+ls
+mkdir quarentena
+ls
+mv 20061009 /quarentena
+mv 20061009 /home/israel/prog_scripts/quarentena
+mv 20080621 /home/israel/prog_scripts/quarentena
+mv 20091126 /home/israel/prog_scripts/quarentena
+ls
+cd quarentena
+ks
+ls
+cd ..
+ls
+cd quarentena
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd prog_scrips
+ls
+cd prog_scripts
+ls
+ls quarentena
+ls
+cd trab1
+ls
+cd quarentena
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+git add .
+git status
+git update
+git update-ref
+git reset
+git status
+git add .
+git commit -m "reorder"
+git push
+ssh-generate key
+ssh-keygen
+ls -la
+git status
+cd trab1
+ls
+cd quarentena
+ls
+git add .
+git commit -m "ops"
+git push
+git add .
+git commit -m "ops"
+git push
+git up-to-date
+ls
+cd ..
+ls
+nano bkp.sh
+chmod +x bkp.sh
+ls
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+ls
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+./bkp.sh
+nano bkp.sh
+exit
+nano /prog_scripts/trab1/bkp.sh
+nano home/israel/prog_scripts/trab1/bkp.sh
+cd home/israel/prog_scripts/trab1/
+cd /home/israel/prog_scripts/trab1/
+ls
+nano /home/israel/prog_scripts/trab1/bkp.sh
+/home/israel/prog_scripts/trab1/./bkp.sh
+nano /home/israel/prog_scripts/trab1/bkp.sh
+/home/israel/prog_scripts/trab1/./bkp.sh
+nano /home/israel/prog_scripts/trab1/bkp.sh
+/home/israel/prog_scripts/trab1/./bkp.sh
+nano /home/israel/prog_scripts/trab1/bkp.sh
+/home/israel/prog_scripts/trab1/./bkp.sh
+nano /home/israel/prog_scripts/trab1/bkp.sh
+/home/israel/prog_scripts/trab1/./bkp.sh
+nano /home/israel/prog_scripts/trab1/bkp.sh
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+clear
+/home/israel/prog_scripts/trab1/./bkp.sh
+exit
+ls
+cd prog_scripts
+ls
+cd trab1
+ls
+nano bkp.sh
+./bkp.sh
+clear
+./bkp.sh
+clear
+./bkp.sh
+date ?
+date --help
+./bkp.sh
+clear
+./bkp.sh
+clear
+./bkp.sh
